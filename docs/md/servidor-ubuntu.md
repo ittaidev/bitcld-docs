@@ -157,7 +157,7 @@ Para dejar preparadas carpetas que gestionaremos a través de Dockge ejecutaremo
   <img src="../../assets/img/ubuntu/stacks.png" alt="/srv/docker/stacks" width="600">
 </p>
 
-> Una vez creada la carpeta donde irán los servicios, [Dockge](../servicios/dockge.md) se encargará de la gestión de las carpetas y archivos de cada servicio que necesitemos. 
+> Una vez creada la carpeta donde irán los servicios, [Dockge](./dockge.md) se encargará de la gestión de las carpetas y archivos de cada servicio que necesitemos. 
 
 
 
@@ -206,4 +206,5 @@ Ahora para comprobar que todo lo que hemos realizado se ha configurado correctam
 ## Conclusión
 
 Ubuntu Server nos proporciona una muy buena base sobre la que montar BitCLD. Es estable, seguro y compatible con una gran cantidad de herramientas lo que lo convierte en un muy buen sistema operativo para nosotros ya que suple todas nuestras necesidades en cuanto a SO.
+
 El configurar una IP fija, en nuestro caso `192.168.1.5` simplifica enormemente la administración y el añadido del disco duro externo nos ofrece una gran capacidad y la posibilidad de despreocuparnos del almacenamiento.
