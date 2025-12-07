@@ -149,7 +149,7 @@ Para ello, se definimos rewrites personalizados, de forma que cuando un disposit
 
 De este modo, cualquier dispositivo conectado a la red y usando AdGuard como DNS podrá acceder fácilmente a los servicios internos a través de sus dominios `.lan`.
 
->Para más información sobre el funcionamiento del DNS accede a la [documentación de Adguard Home](../servicios/adguard.md/)
+>Para más información sobre el funcionamiento del DNS accede a la [documentación de Adguard Home](./adguard.md)
 
 
 ## Integración sin necesidad de cambiar DNS
@@ -306,3 +306,4 @@ Y ya lo tendríamos instalado
 Aunque la función es interna, Caddy es un componente muy importante dentro de bitCLD. Ya que junto con Adguard Home, nos  permite un acceso seguro y organizado a todos los servicios mediante dominios locales y certificados válidos.
 
 Al combinarlo con Cloudflare Tunnel para el acceso remoto nos permite crear una infraestructura completa, donde cada herramienta cumple una función clara dentro de los pilares del proyecto: simplicidad, seguridad, autohospedaje y uso de código abierto.
+
