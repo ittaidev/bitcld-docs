@@ -35,7 +35,7 @@ Desde la interfaz de Dockge, creamos una nueva pila (stack) llamada uptime-kuma 
 
 
 
-[Dockge](./dockge.md.md) se encargará de crear automáticamente la carpeta data dentro del directorio de la pila para almacenar la configuración y el historial de monitorización de forma persistente.
+[Dockge](./dockge.md) se encargará de crear automáticamente la carpeta data dentro del directorio de la pila para almacenar la configuración y el historial de monitorización de forma persistente.
 
 Una vez guardado, basta con darle al botón de desplegar para que el servicio se despliegue.
 
@@ -193,3 +193,4 @@ En este caso la creación del bot sería la misma.
 ## Conclusión 
 
 Uptime Kuma es una buena aportación al ecosistema bitCLD ya que nos permite monitorizar nuestros servicios de una manera clara, ligera y mediante docker compose y gestionado por Dockge. El hecho de que podamos recibir notificaciones en Telegram nos ofrece tener una supervisión en tiempo real.
+
