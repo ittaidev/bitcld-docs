@@ -31,7 +31,7 @@ nav:
     - Breve historia del proyecto: md/historia.md
     - Objetivos generales y específicos: md/objetivos.md
     - Relación de los módulos cursados con el proyecto: md/asir.md
-  - Diseño: md/diseno.md
+  - Diseño: md/diseño.md
   - Implementación:
     - Introducción: md/implantacion.md
     - Hardware y especificaciones: md/hardware.md
@@ -86,4 +86,5 @@ extra:
       name: Twitter / X      
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@ittaidev
+
       name: YouTube
