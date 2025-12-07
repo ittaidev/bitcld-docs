@@ -157,8 +157,9 @@ Para la creación de inicio de sesión es muy sencillo:
 El acceso a nuestro gestor de contraseñas se realiza exclusivamente a través de Tailscale VPN o mediante un Cloudflare Tunnel protegido por Access, disponible externamente en el subdominio
 `pass.bitcld.com` y localmente en `pass.lan`. De esta forma, el servicio permanece completamente aislado del exterior y solo accesible por los medios autorizados dentro del ecosistema bitCLD.
 
-> Para más información sobre la seguridad del ecosistema accede a la documentación de [Cloudflare](../configuracion/cloudflare.md), [Tailscale](../configuracion/tailscale.md) o [Caddy](../configuracion/caddy.md).
+> Para más información sobre la seguridad del ecosistema accede a la documentación de [Cloudflare](./cloudflare.md), [Tailscale](./tailscale.md) o [Caddy](./caddy.md).
 
 ## Conclusión
+
 
 Vaultwarden es una aplicación fundamental en bitCLD ya que nos permite gestionar todas nuestras contraseñas de una manera muy simple y segura. El que sólo exista la opción de acceder de manera cifrada https:// nos garantiza mucha más seguridad evitando posibles accesos no autorizados. Con todo esto obtenemos más fiabilidad, seguridad y privacidad sobre nuestras credenciales.
