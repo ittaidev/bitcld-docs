@@ -25,7 +25,7 @@ Debemos asegurarnos de tener docker y docker compose instalado en nuestro servid
   <img src="../../assets/img/dockge/previo.png" alt="Requisitos previos" width="800">
 </p>
 
-> Para ver la documentación de docker y docker compose [Pulsa el siguiente enlace](../instalacion/docker.md)
+> Para ver la documentación de docker y docker compose [Pulsa el siguiente enlace](./docker.md)
 
 Y también nos aseguramos de crear las carpetas necesarias con:
 
@@ -163,4 +163,5 @@ Para nuestro uso el flujo de trabajo más recomendado es:
 ## Conclusión
 
 Dockge es uno de los servicios más esenciales de los que disponemos, ya que podríamos considerarlo como el centro de mando de bitCLD desde donde podemos arrancar, reiniciar y todas las demás funciones que necesitemos. Además, el poder gestionar los compose.yml directamente desde su interfaz siendo muy intuitivo.
+
 
