@@ -173,7 +173,7 @@ Un DNS rewrite sustituye una dirección de dominio por una IP fija. En nuestro c
   <img src="../../assets/img/adguard/rewrite.png" alt="dnssec" width="800">
 </p>
 
-Esto facilita la integración con [Caddy](../configuracion/caddy.md), que recibe el tráfico local y lo distribuye al contenedor correspondiente por la red interna Docker (caddy_net).
+Esto facilita la integración con [Caddy](./caddy.md), que recibe el tráfico local y lo distribuye al contenedor correspondiente por la red interna Docker (caddy_net).
 
 
 ## Funcionamiento de Adguard Home
@@ -207,4 +207,5 @@ Y desde el propio panel podemos observar qué dominios ha permitido y cuales ha 
 ## Conclusión
 
 Adguard Home es un servicio esencial para añadir a nuestro ecosistema ya que nos ofrece privacidad y control sobre nuestras consultas de una manera muy simple. Además al ser autoalojado tenemos la oportunidad de iniciarlo o detenerlo fácilmente desde Dockge. Es por ello que es una gran incorporación a bitCLD ya que respeta los cuatro pilares del proyecto.
+
 
