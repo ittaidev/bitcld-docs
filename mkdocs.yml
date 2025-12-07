@@ -1,0 +1,89 @@
+site_name: Documentación de bitCLD
+theme:
+  name: material
+  favicon: assets/img/general/icon.png
+  icon:
+    logo: material/cloud
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tabs           
+    - navigation.tabs.sticky    
+    - navigation.indexes        
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/white-balance-sunny
+        name: Cambiar a modo claro
+
+nav:
+  - Resumen: index.md
+  - Introducción: 
+    - Contexto que motiva el proyecto: md/contexto.md
+    - Breve historia del proyecto: md/historia.md
+    - Objetivos generales y específicos: md/objetivos.md
+    - Relación de los módulos cursados con el proyecto: md/asir.md
+  - Diseño: md/diseno.md
+  - Implementación:
+    - Introducción: md/implantacion.md
+    - Hardware y especificaciones: md/hardware.md
+    - Servidor Ubuntu: md/servidor-ubuntu.md
+    - Docker y docker compose: md/docker.md
+    - Tailscale: md/tailscale.md
+    - Cloudflare: md/cloudflare.md
+    - Caddy: md/caddy.md
+    - Dockge: md/dockge.md
+    - AdGuard: md/adguard.md
+    - Nextcloud: md/nextcloud.md
+    - Inteligencia artificial: md/ia.md
+    - Vaultwarden: md/vaultwarden.md
+    - Uptime Kuma: md/uptime-kuma.md
+    - Netdata: md/netdata.md
+    - Zoho Mail: md/zoho-mail.md
+    - Tabla explicativa: md/tabla.md
+  - Problemas detectados: md/problemas.md
+  - Guía de uso:
+    - Guía de uso: md/uso.md
+    - Iniciar servicio (Dockge): md/usodockge.md
+    - Acceder en local: md/usocaddy.md
+    - Acceder mediante subdominio: md/usocloudflare.md
+    - Adguard Home: md/usoadguard.md
+    - Nextcloud: md/usonextcloud.md
+    - Inteligencia artificial: md/usoia.md
+    - Vaultwarden: md/usovault.md
+    - Uptime Kuma: md/usokuma.md
+    - Netdata: md/usonetdata.md
+    - Zoho Mail: md/usozoho.md
+    - Acceso remoto al servidor (Tailscale): md/usotail.md
+  - Riesgos y buenas prácticas: md/riesgos.md
+  - Conclusión general final: md/conclusion.md
+  - Otras tecnologías usadas: 
+    - GitHub: md/github.md
+
+copyright: © 2025 BitCLD - Proyecto Final de ASIR | Desarrollado por Ittai Rivero
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://ittai.dev
+      name: Web personal
+    - icon: fontawesome/brands/github
+      link: https://github.com/ittaidev
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ittairivero
+      name: LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/ittaidev
+      name: Twitter / X      
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ittaidev
+      name: YouTube
