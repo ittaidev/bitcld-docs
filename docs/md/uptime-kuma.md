@@ -100,7 +100,7 @@ Una vez guardado ya podremos ver el estado de nuestro servicio en todo momento t
 
 ### Configuración sin puerto establecido en el docker compose
 
-En caso de no habilitar ningún puerto, como es nuestro caso con Vaultwarden, deberemos asegurarnos que Uptime Kuma esté en la misma red que Vaultwarden y Caddy y en la sección de URL ponemos el nombre del docker compose correspondiente y el que hayamos establecido en el Rocket Expose, esta variable se utiliza para configurar el puerto interno del contenedor donde se ejecuta la aplicación, en nuestro caso, VaultWarden. Para ver la documentación de Vaultwarden [pulsa aquí](../servicios/vaultwarden.md/).
+En caso de no habilitar ningún puerto, como es nuestro caso con Vaultwarden, deberemos asegurarnos que Uptime Kuma esté en la misma red que Vaultwarden y Caddy y en la sección de URL ponemos el nombre del docker compose correspondiente y el que hayamos establecido en el Rocket Expose, esta variable se utiliza para configurar el puerto interno del contenedor donde se ejecuta la aplicación, en nuestro caso, VaultWarden. Para ver la documentación de Vaultwarden [pulsa aquí](./vaultwarden.md/).
 
 <p align="center">
   <img src="../../assets/img/kuma/vault.png" alt="Monitor Vaultwarden" width="400">
@@ -164,7 +164,7 @@ Una vez configurado el bot deberíamos recibir las notificaciones de los servici
 
 ##### Bot en un grupo de Telegram
 
-En caso de querer el bot en un grupo de Telegram, como será nuestro caso, ya que al tener un bot para las notificaciones de Uptime Kuma y otro para las de [Netdata](../servicios/netdata.md) por comodidad es mejor tener los dos bots en un grupo de telegram.  
+En caso de querer el bot en un grupo de Telegram, como será nuestro caso, ya que al tener un bot para las notificaciones de Uptime Kuma y otro para las de [Netdata](./netdata.md) por comodidad es mejor tener los dos bots en un grupo de telegram.  
 
 En este caso la creación del bot sería la misma. 
 
@@ -193,4 +193,5 @@ En este caso la creación del bot sería la misma.
 ## Conclusión 
 
 Uptime Kuma es una buena aportación al ecosistema bitCLD ya que nos permite monitorizar nuestros servicios de una manera clara, ligera y mediante docker compose y gestionado por Dockge. El hecho de que podamos recibir notificaciones en Telegram nos ofrece tener una supervisión en tiempo real.
+
 
