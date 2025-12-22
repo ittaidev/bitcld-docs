@@ -67,6 +67,7 @@ nav:
   - Conclusión general final: md/conclusion.md
   - Otras tecnologías usadas: 
     - GitHub: md/github.md
+    - Cloudflare Pages: md/usopages.md
 
 copyright: © 2025 BitCLD - Proyecto Final de ASIR | Desarrollado por Ittai Rivero
 extra:
@@ -88,3 +89,4 @@ extra:
       link: https://www.youtube.com/@ittaidev
 
       name: YouTube
+
